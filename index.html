@@ -42,7 +42,6 @@
 			<div class="slides">
 				<section data-id="1">
 					<h4> <span style="font-weight:bold;font-size:50px">datos </span><span style="color: red;font-size:50px;">estadísticos</span></h4>
-					<h4> <span style="font-weight:bold;font-size:50px">abiertos y enlazados</span></h4>
 
 					<div style="line-height: 1.5em; text-align: center;">
 						<img alt="Cantabria cloud"  src="./img/cantabria_cloud.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); " />
@@ -50,6 +49,132 @@
 
 
 				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## <span class="fragment highlight-blue" data-fragment-index="1">datos</span> y <span class="fragment highlight-red" data-fragment-index="2">metadatos</span>
+							><span class="fragment highlight-red" data-fragment-index="2">En septiembre de 2016</span><span class="fragment highlight-blue" data-fragment-index="1"> se han creado 59</span> <span class="fragment highlight-red" data-fragment-index="2">sociedades mercantiles en Cantabria.</span>
+							</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## <span class="fragment highlight-red" data-fragment-index="1">información</span>
+							> En septiembre de 2016 se han creado 59 sociedades mercantiles en Cantabria, <span class="fragment highlight-red" data-fragment-index="1">33 menos que en agosto.</span>
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## <span class="fragment highlight-red" data-fragment-index="1">conocimiento</span>
+							> En septiembre de 2016 se han creado 59 sociedades mercantiles en Cantabria, 33 menos que en agosto, <span class="fragment highlight-red" data-fragment-index="1">probablemente debido a la crisis económica.</span>
+						</script>
+					</section>
+
+				</section>
+				<section>
+					<section data-id="2">
+						<h2 style="font-style: normal; font-variant: normal; font-weight: bold;">
+							datos tabulares
+						</h2>
+
+						<div style="line-height: 1.5em; text-align: left;">
+							<img alt="Datos tabulares"  src="./img/tabla900.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); " />
+						</div>
+					</section>
+					<section data-id="3">
+						<section data-id="3a">
+							<h2 style="font-style: normal; font-variant: normal; font-weight: bold;">
+								formatos
+							</h2>
+
+
+							<table style="font-size:20px">
+								<thead>
+								<tr>
+									<th></th>
+									<th>consumo</th>
+									<th>complejidad</th>
+									<th>popularidad</th>
+									<th>metadata</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td><img alt="Icono xls"  src="./img/xls.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+									</td>
+									<td>manual</td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">baja</span></td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">muy alta</span> </td>
+									<td>alta</td>
+								</tr>
+								<tr>
+									<td><img alt="Icono PC-Axis"  src="./img/pax.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+									</td>
+									<td>manual/auto</td>
+									<td>media</td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
+								</tr>
+								<tr>
+									<td><img alt="Icono SDMX"  src="./img/sdmx.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+									</td>
+									<td>auto</td>
+									<td><span class="fragment highlight-red" data-fragment-index="1">muy alta</span> </td>
+									<td><span class="fragment highlight-red" data-fragment-index="1">muy baja</span> </td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
+								</tr>
+								<tr>
+									<td><img alt="Icono JSON"  src="./img/json.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+									</td>
+									<td>auto</td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">muy baja</span> </td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">muy baja</span> </td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
+								</tr>
+								<tr>
+									<td><img alt="Icono RDF"  src="./img/rdf.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+									</td>
+									<td>auto</td>
+									<td >media</td>
+									<td><span class="fragment highlight-red" data-fragment-index="1">baja</span></td>
+									<td><span class="fragment highlight-green" data-fragment-index="1">muy alta</span></td>
+								</tr>
+
+								</tbody>
+
+							</table>
+						</section>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## APIs web
+							> Conjuntos de funciones, generalmente de uso público, que permiten a programadores y usuarios avanzados la extracción automatizada de datos de la web (entre otras funcionalidades)
+
+							[Google Maps](https://developers.google.com/maps/?hl=es-419), [Twitter](https://dev.twitter.com/rest/public)
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+El ICANE dispone de tres APIs web:
+
+- [datos](http://www.icane.es/statistical-api)
+- [metadatos](http://www.icane.es/metadata/)
+- [datos abiertos](http://datos.icane.es/api/3/action/package_search?q=pesca)
+						</script>
+					</section>
+<section data-markdown>
+<script type="text/template">
+## widgets de datos
+
+> Pequeña aplicación, programa o módulo que pueden contener información visual, numérica o ambas</blockquote>
+
+
+¡las [Fichas Municipales de Cantabria](http://www.icane.es/munreport) están llenas de widgets!
+
+
+</script>
+</section>
+</section>
 				<section data-id="2">
 					<section data-id="2a" data-markdown>
 						<script type="text/template">
