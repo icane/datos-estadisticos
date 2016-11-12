@@ -41,7 +41,8 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section data-id="1">
-					<h4> <span style="font-weight:bold;font-size:50px">datos </span><span style="color: red;font-size:50px;">estadísticos</span></h4>
+					<h4><span style="font-weight:bold;font-size:40px">introducción a los</span></h4>
+					<h4> <span style="font-weight:bold;font-size:50px">datos </span><span style="color: red;font-size:50px;">estadísticos</span><span style="font-weight:bold;font-size:40px"> públicos </span></h4>
 
 					<div style="line-height: 1.5em; text-align: center;">
 						<img alt="Cantabria cloud"  src="./img/cantabria_cloud.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); " />
@@ -68,6 +69,11 @@
 							## <span class="fragment highlight-red" data-fragment-index="1">conocimiento</span>
 							> En septiembre de 2016 se han creado 59 sociedades mercantiles en Cantabria, 33 menos que en agosto, <span class="fragment highlight-red" data-fragment-index="1">probablemente debido a la crisis económica.</span>
 						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						## ¿sabiduría?
+</script>
 					</section>
 
 				</section>
@@ -155,6 +161,14 @@
 					</section>
 					<section data-markdown>
 						<script type="text/template">
+							### se pueden ver como un enchufe...
+							![Enchufe](./img/plugin.jpg)
+
+							## de datos
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
 ### el ICANE dispone de tres APIs web:
 
 - [datos](http://www.icane.es/statistical-api)
@@ -166,7 +180,7 @@
 <script type="text/template">
 ## widgets de datos
 
-> Pequeña aplicación, programa o módulo que pueden contener información visual, numérica o ambas</blockquote>
+> Pequeña aplicación, programa o módulo que puede contener información visual, numérica o ambas</blockquote>
 
 
 ¡las [Fichas Municipales de Cantabria](http://www.icane.es/munreport) están llenas de widgets!
@@ -178,9 +192,11 @@
 				<section data-markdown>
 					<script type="text/template">
 ## ¿qué podemos hacer con todo esto?
-[un cuaderno...](http://nbviewer.ipython.org/gist/predicador37/94eacb48d4461cbfc98c)
+<div class="fragment" data-fragment-index="1">[un cuaderno...](http://nbviewer.ipython.org/gist/predicador37/94eacb48d4461cbfc98c)</div>
 
-[o empotrar un widget en una web](./chart.html)
+<div class="fragment" data-fragment-index="2">[empotrar un widget en una web...](./chart.html)</div>
+
+<div class="fragment" data-fragment-index="3">y mucho más</div>
 
 
 					</script>
@@ -200,7 +216,7 @@
                      </section>
                      <section data-id="5c">
                          <h2 style="font-style: normal; font-variant: normal; font-weight: bold;">
-                             <a href="http://semstats2014.wordpress.com/">semstats</a>: ¿para qué?
+                             <a href="http://semstats.org/">semstats</a>: ¿para qué?
                          </h2>
                          <div style="text-align: left">
                              <ul>
@@ -231,9 +247,8 @@
                          <table style="font-size:20px">
                              <thead style="font-size:30px">
                              <tr class="headerSeparation">
-                                 <th style="font-family: 'Open Sans'"
-                                 >Base de datos</th>
-                                 <th style="font-family: 'Open Sans'"># enlaces</th>
+                                 <th>Base de datos</th>
+                                 <th># enlaces</th>
                              </tr>
                              </thead>
                              <tbody>
@@ -286,7 +301,7 @@
 				<section data-id="2">
 					<section data-id="2a" data-markdown>
 						<script type="text/template">
-							# origen
+							## datos abiertos: origen
 
 							![Obama](./img/obama.jpg)
 
@@ -336,19 +351,17 @@
 							- propiciar la creación de nuevas oportunidades económicas
 						</script>
 					</section>
-					<section data-id="3c" data-markdown>
-						<script type="text/template">
-							## pincipios
+					<section data-id="3c" tagcloud>
 
-							1.  datos completos
-							2.  datos primarios
-							3.  datos actualizados
-							4.  datos accesibles
-							5.  datos procesables
-							6.  datos no discriminatorios
-							7.  datos no propietarios
-							8.  datos libres de licencia
-						</script>
+							completos
+							primarios
+							actualizados
+							accesibles
+							procesables
+							no discriminatorios
+							no propietarios
+							libres de licencia
+
 					</section>
 				</section>
 				<section data-id="4">
@@ -429,7 +442,7 @@
 						<script type="text/template">
 							## big data
 
-							> datos que sencillamente no caben en nuestro PC
+							> datos que sencillamente no caben en un PC
 
 
 
@@ -496,7 +509,7 @@ se explican con las tres Vs: **v**olumen, **v**ariedad y **v**elocidad
 					<section data-markdown>
 						<script type="text/template">
 							##variedad
-							antes, teníamos bases de datos y hojas de cálculo
+							antes teníamos bases de datos y hojas de cálculo
 
 							ahora tenemos emails, fotos, vídeos, tweets, posts, PDFs, audio...
 						</script>
@@ -558,14 +571,17 @@ se explican con las tres Vs: **v**olumen, **v**ariedad y **v**elocidad
 
 					</section>
 					<section data-markdown data-background="./img/cantabria.jpg">
+						<script type="text/template">
 ## en la administración pública
+
 - lucha contra el **fraude fiscal**: impuestos vs pensiones o empleo
 - **salud**: búsqueda de patrones y tendencias en enfermedades
 - **servicios**: oferta proactiva a partir de datos disponibles
 
+
 <small>Fuente: ASTIC, [Monográfico Big Data](http://www.astic.es/sites/default/files/articulosboletic/mono3_emilio_garcia.pdf)</small>
 
-
+						</script>
 
 					</section>
 					<section data-markdown>
@@ -630,7 +646,7 @@ se explican con las tres Vs: **v**olumen, **v**ariedad y **v**elocidad
 							<a href="http://www.icane.es"><img alt="Logotipo ICANE"  src="./img/logo500.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;" />
 							</a>
 							<a href="http://www.cantabria.es"><img alt="Logotipo DGOT"  src="./img/informatica500.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; " /> </a>
-							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a href="https://github.com/icane/intro-opendata">Acceso al repositorio con la presentación</a></span></p>
+							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a href="https://github.com/icane/datos-estadisticos">Acceso al repositorio con la presentación</a></span></p>
 							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;">URL de la presentación: <a href="http://icane.github.io/intro-opendata">http://icane.github.io/intro-opendata</a></span></p>
 
 
@@ -667,6 +683,7 @@ se explican con las tres Vs: **v**olumen, **v**ariedad y **v**elocidad
 			{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 			{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 			{ src: 'plugin/zoom-js/zoom.js', async: true },
+			{ src: 'plugin/tagcloud/tagcloud.js', async: true },
 			{ src: 'plugin/notes/notes.js', async: true }
 			]
 			});
