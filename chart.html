@@ -14,7 +14,7 @@ function drawChart () {
 	//building-census-type-size-municipality-number-property
 	//census-1900-2001.google-json
 	//private-housing-annual.google-json
-	    url: 'http://www.icane.es/data/api/private-housing-annual.google-json',dataType: 'json'}).done(function(icaneSeries) {
+	    url: 'https://www.icane.es/data/api/private-housing-annual.google-json',dataType: 'json'}).done(function(icaneSeries) {
 	         
 	        // Create the data table.
 	        var data = new google.visualization.DataTable(icaneSeries.data);
