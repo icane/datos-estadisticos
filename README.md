@@ -1,3 +1,3 @@
-# Introducción a los datos estadísticos abiertos y enlazados en Cantabria
+# Introducción a los datos estadísticos públicos en Cantabria
 
-Presentación a modo de informe ejecutivo sobre datos estadísticos abiertos y enlazados en Cantabria.
+Presentación divulgativa sobre diversas tecnologías relacionadas con la difusión de datos estadísticos (linked data, open data, big data, etc.) en Cantabria.
